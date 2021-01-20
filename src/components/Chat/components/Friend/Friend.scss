@@ -1,0 +1,48 @@
+.friend-list {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  cursor: pointer;
+  flex-direction: column;
+  min-width: fit-content;
+
+  @media (min-width: 800px) {
+    flex-direction: row;
+  }
+
+  & > div {
+    display: flex;
+
+    img {
+      display: flex;
+      align-self: center;
+      margin-right: 5px;
+    }
+
+    .friend-info {
+      display: flex;
+      align-self: center;
+      flex-direction: column;
+    }
+  }
+
+  .friend-status {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .offline {
+      width: 10px;
+      height: 10px;
+      background: rgb(228, 14, 14);
+      border-radius: 50%;
+    }
+
+    .online {
+      width: 10px;
+      height: 10px;
+      background: rgb(25, 182, 11);
+      border-radius: 50%;
+    }
+  }
+}

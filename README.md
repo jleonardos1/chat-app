@@ -68,3 +68,54 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `yarn build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### create react app
+
+npx create-react-app chat-frontend
+
+### start react app
+
+npx create-react-app chat-frontend
+
+### router to navigate between the pages
+
+npm i --save react-router-dom
+
+### compile to css code
+
+npm i node-sass@4.14.1
+
+### Promise based HTTP client for the browser and node.js
+
+npm i axios
+
+### Redux - Reducers are responsible for specifing how state are updated
+
+npm i redux
+
+### thunk middleware to redux - allows you to write action creators that return a function instead of an action. The thunk can be used to delay the dispatch of an action, or to dispatch only if a certain condition is met. The inner function receives the store methods dispatch and getState as parameters
+
+npm i redux-thunk
+
+### how to extract the values your component needs from Redux, and your component receives them as props https://react-redux.js.org/
+
+npm i react-redux
+
+### installing icons
+
+npm i --save @fortawesome/fontawesome-svg-core
+npm install --save @fortawesome/free-solid-svg-icons
+npm install --save @fortawesome/react-fontawesome
+
+### adding Additional Styles
+
+npm install --save @fortawesome/free-brands-svg-icons
+npm install --save @fortawesome/free-regular-svg-icons
+
+## adding socket client
+
+npm i socket.io-client
+
+## emoji picker component for React
+
+$ npm i emoji-mart --save
