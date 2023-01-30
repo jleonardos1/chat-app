@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-This is one of the react development courses I took when I needed to learn for a project I was going to start working on.
+This is one of the React development courses I took when I needed to learn for a project I was going to start working on.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
