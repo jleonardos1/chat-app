@@ -49,7 +49,7 @@ function App() {
           <Route path="/login" component={Login} />
           <Route path="/register" component={Register} />
 
-          <Route render={() => <h1>404 page not fount</h1>}></Route>
+          <Route render={() => <h1>404 page not found</h1>}></Route>
         </Switch>
       </div>
     </Router>
